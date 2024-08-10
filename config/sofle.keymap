@@ -15,7 +15,8 @@
         modmouse: modmouse {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI &mkp MB2>;
+            bindings = <&kp LEFT_GUI &mkp MB2>, <&macro_press>;
+
             label = "MODMOUSE";
         };
     };
